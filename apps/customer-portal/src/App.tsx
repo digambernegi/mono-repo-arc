@@ -2,12 +2,13 @@ import './App.css'
 import { Button } from "@repo/ui"
 import { formatCurrency } from "@repo/utils";
 
+
+// Outer scope: Created only once when the file loads
+function handleClick() {
+  alert('button clicked');
+}
+
 function App() {
-
-  function handleClick() {
-    alert('button clicked');
-  }
-
   return (
     <section id="center">
       <h1>Welcome to mono repo</h1>
