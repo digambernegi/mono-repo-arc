@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "digambernegi",
+        "projectKey": "digambernegi_mono-repo-arc"
+    }
+}
